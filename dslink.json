@@ -1,11 +1,11 @@
 {
   "name": "dslink-java-dsa-coap",
-  "version": "0.0.4.3",
+  "version": "2.0.1.0",
   "description": "DSA-over-COAP",
   "license": "Apache",
   "author": {
-    "name": "Kenneth Endfinger",
-    "email": "kaendfinger@gmail.com"
+    "name": "James Puchin",
+    "email": "juris.puchin@gmail.com"
   },
   "main": "bin/dslink-java-dsa-coap",
   "repository": {
@@ -40,7 +40,7 @@
     },
     "handler_class": {
       "type": "string",
-      "default": "org.dsa.iot.coap.CoapHandler"
+      "default": "org.dsa.iot.coap.CoapLinkHandler"
     }
   }
 }
